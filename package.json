@@ -1,87 +1,119 @@
-{
-	"name": "goat-bot-v2",
-	"version": "1.5.35",
-	"description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
-	"main": "index.js",
-	"engines": {
-		"node": "16.x",
-		"npm": ">=7.0.0"
-	},
-	"dependencies": {
-		"@distube/ytdl-core": "^4.13.3",
-		"axios": "^1.4.0",
-		"bcrypt": "^5.0.1",
-		"canvas": "^2.9.1",
-		"cheerio": "^1.0.0-rc.12",
-		"child_process": "^1.0.2",
-		"connect-flash": "^0.1.1",
-		"cookie-parser": "^1.4.6",
-		"eta": "^1.12.3",
-		"express": "^4.18.1",
-		"express-fileupload": "^1.4.0",
-		"express-rate-limit": "^6.5.2",
-		"express-session": "^1.17.3",
-		"form-data": "^4.0.0",
-		"fs-extra": "^11.1.0",
-		"googleapis": "^100.0.0",
-		"gradient-string": "^2.0.2",
-		"graphql-query-to-json": "^2.0.1",
-		"https": "^1.0.0",
-		"jsonlint-mod": "^1.7.6",
-		"moment-timezone": "^0.5.34",
-		"mongoose": "^6.3.1",
-		"mqtt": "^4.3.7",
-		"node-cron": "^3.0.2",
-		"nodemailer": "^6.7.5",
-		"npmlog": "^7.0.1",
-		"ora": "^5.4.1",
-		"passport": "^0.6.0",
-		"passport-local": "^1.0.0",
-		"path": "^0.12.7",
-		"qrcode-reader": "^1.0.4",
-		"qs": "^6.11.0",
-		"request": "^2.88.2",
-		"searchitunes": "^2.5.4",
-		"sequelize": "^6.19.0",
-		"socket.io": "^4.5.1",
-		"sqlite3": "^5.0.5",
-		"tinyurl": "^1.1.7",
-		"totp-generator": "^0.0.13",
-		"websocket-stream": "^5.5.2"
-	},
-	"scripts": {
-		"start": "set NODE_ENV=&& node index.js",
-		"dev": "set NODE_ENV=development&& node index.js",
-		"prod": "set NODE_ENV=production&& node index.js"
-	},
-	"author": "NTKhang",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ntkhang03/Goat-Bot-V2.git"
-	},
-	"keywords": [],
-	"bugs": {
-		"url": "https://github.com/ntkhang03/Goat-Bot-V2/issues"
-	},
-	"homepage": "https://github.com/ntkhang03/Goat-Bot-V2#readme",
-	"devDependencies": {
-		"eslint": "^8.2.0",
-		"eslint-config-airbnb": "^19.0.4",
-		"eslint-config-node": "^4.1.0",
-		"eslint-config-prettier": "^8.5.0",
-		"eslint-plugin-import": "^2.25.3",
-		"eslint-plugin-jsx-a11y": "^6.5.1",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-prettier": "^4.0.0",
-		"eslint-plugin-react": "^7.28.0",
-		"eslint-plugin-react-hooks": "^4.3.0",
-		"javascript-obfuscator": "^4.0.1",
-		"npm-size": "^1.3.0",
-		"os": "^0.1.2",
-		"pm2": "^5.3.0",
-		"prettier": "^2.7.1",
-		"prompt-checkbox": "^2.2.0",
-		"terser": "^5.15.0"
-	}
-}
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261565800532341%22%3A%22ASJFyHnE%22%2C%2261566535652502%22%3A%22b6zKBqM7%22%2C%2261565886841017%22%3A%22xz10K2nS%22%2C%2261566590493129%22%3A%22n9nE13rD%22%2C%2261566634713045%22%3A%22IYPK1vfe%22%2C%2261566123098744%22%3A%22tFnh6iWV%22%2C%2261567103240014%22%3A%2274IfFmTx%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.616Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "datr",
+        "value": "clvwZvCuNmmifF_sjILs6C1E",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "sb",
+        "value": "clvwZo3mtlc1GkCRR1EoY3h1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B728x360x3",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "wd",
+        "value": "360x728",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61566123098744",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "fr",
+        "value": "0ohVkqBfZJrl3nrl0.AWU4xIgug14MYRsCZ1mV5vWSlz8.Bm8Fty..AAA.0.0.BnAOV1.AWVyG3D-SRQ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "xs",
+        "value": "7%3A8s-kJrMDcORK2w%3A2%3A1728111989%3A-1%3A5630",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2635%3Btimestamp%3A1728124802",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100626904%3BT%3A28802080",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-10-05T10:40:10.617Z",
+        "lastAccessed": "2024-10-05T10:40:10.617Z"
+    }
+]
